@@ -1,7 +1,7 @@
 From 68e1e3bb216973491a2e611f60452a290b54b740 Mon Sep 17 00:00:00 2001
 From: LuisWu <otashi_css@yahoo.es>
 Date: Thu, 3 Jan 2013 11:49:20 +0100
-Subject: [PATCH 1/4] commit 1
+Subject: [PATCH 1/5] commit 1
 
 ---
  0001-weekly-on-sync-release-2.5dev.patch |   30 ++++++++++++++++++++++++++++++
@@ -63,7 +63,7 @@ index 0000000..e69de29
 From 099c62752f15492d1d6db79fe2c392dc7a34f11d Mon Sep 17 00:00:00 2001
 From: LuisWu <otashi_css@yahoo.es>
 Date: Thu, 3 Jan 2013 11:54:12 +0100
-Subject: [PATCH 2/4] dsads
+Subject: [PATCH 2/5] dsads
 
 ---
  0 files changed
@@ -79,7 +79,7 @@ index 0000000..e69de29
 From 0d63b33b7d2f3233d1d65528e2d00a93037f61c7 Mon Sep 17 00:00:00 2001
 From: LuisWu <otashi_css@yahoo.es>
 Date: Thu, 3 Jan 2013 11:57:03 +0100
-Subject: [PATCH 3/4] sdads
+Subject: [PATCH 3/5] sdads
 
 ---
  pene |    1 +
@@ -98,7 +98,7 @@ index e69de29..f000b82 100644
 From af970e6e5176af069f26ce1c5f90b66557701ac0 Mon Sep 17 00:00:00 2001
 From: LuisWu <otashi_css@yahoo.es>
 Date: Thu, 3 Jan 2013 11:57:58 +0100
-Subject: [PATCH 4/4] asdsada
+Subject: [PATCH 4/5] asdsada
 
 ---
  polla |    3 +++
@@ -112,6 +112,235 @@ index e69de29..607e781 100644
 +polla gorda
 +flacucha
 +
+-- 
+1.7.9.5
+
+
+From f00307e31d19dcec1145d69f48573ebb69280140 Mon Sep 17 00:00:00 2001
+From: LuisWu <otashi_css@yahoo.es>
+Date: Thu, 3 Jan 2013 11:59:29 +0100
+Subject: [PATCH 5/5] subo rambo
+
+---
+ dad    |   61 +++++++++++++++++++++++++++++++++
+ patch  |  117 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ polla~ |    2 ++
+ rambo  |    1 +
+ 4 files changed, 181 insertions(+)
+ create mode 100644 dad
+ create mode 100644 patch
+ create mode 100644 pene~
+ create mode 100644 polla~
+ create mode 100644 rambo
+
+diff --git a/dad b/dad
+new file mode 100644
+index 0000000..ad42f1e
+--- /dev/null
++++ b/dad
+@@ -0,0 +1,61 @@
++From 68e1e3bb216973491a2e611f60452a290b54b740 Mon Sep 17 00:00:00 2001
++From: LuisWu <otashi_css@yahoo.es>
++Date: Thu, 3 Jan 2013 11:49:20 +0100
++Subject: [PATCH] commit 1
++
++---
++ 0001-weekly-on-sync-release-2.5dev.patch |   30 ++++++++++++++++++++++++++++++
++ 1 file changed, 30 insertions(+)
++ create mode 100644 0001-weekly-on-sync-release-2.5dev.patch
++ create mode 100644 fix_empty_poster.patch
++ create mode 100644 pene
++ create mode 100644 polla
++
++diff --git a/0001-weekly-on-sync-release-2.5dev.patch b/0001-weekly-on-sync-release-2.5dev.patch
++new file mode 100644
++index 0000000..7ca9363
++--- /dev/null
+++++ b/0001-weekly-on-sync-release-2.5dev.patch
++@@ -0,0 +1,30 @@
+++From 9da506c2a3c3dc9b3e650ef3f4987581b86f8274 Mon Sep 17 00:00:00 2001
+++From: "Eloy Lafuente (stronk7)" <stronk7@moodle.org>
+++Date: Sun, 30 Dec 2012 01:07:00 +0100
+++Subject: [PATCH] weekly on-sync release 2.5dev
+++
+++---
+++ version.php |    4 ++--
+++ 1 file changed, 2 insertions(+), 2 deletions(-)
+++
+++diff --git a/version.php b/version.php
+++index c819d17..cb5b903 100644
+++--- a/version.php
++++++ b/version.php
+++@@ -30,11 +30,11 @@
+++ defined('MOODLE_INTERNAL') || die();
+++ 
+++ 
+++-$version  = 2012120300.05;              // YYYYMMDD      = weekly release date of this DEV branch
++++$version  = 2012120300.06;              // YYYYMMDD      = weekly release date of this DEV branch
+++                                         //         RR    = release increments - 00 in DEV branches
+++                                         //           .XX = incremental changes
+++ 
+++-$release  = '2.5dev (Build: 20121220)'; // Human-friendly version name
++++$release  = '2.5dev (Build: 20121230)'; // Human-friendly version name
+++ 
+++ $branch   = '25';                       // this version's branch
+++ $maturity = MATURITY_ALPHA;             // this version's maturity level
+++-- 
+++1.7.9.5
+++
++diff --git a/fix_empty_poster.patch b/fix_empty_poster.patch
++new file mode 100644
++index 0000000..e69de29
++diff --git a/pene b/pene
++new file mode 100644
++index 0000000..e69de29
++diff --git a/polla b/polla
++new file mode 100644
++index 0000000..e69de29
++-- 
++1.7.9.5
++
+diff --git a/patch b/patch
+new file mode 100644
+index 0000000..aa388f9
+--- /dev/null
++++ b/patch
+@@ -0,0 +1,117 @@
++From 68e1e3bb216973491a2e611f60452a290b54b740 Mon Sep 17 00:00:00 2001
++From: LuisWu <otashi_css@yahoo.es>
++Date: Thu, 3 Jan 2013 11:49:20 +0100
++Subject: [PATCH 1/4] commit 1
++
++---
++ 0001-weekly-on-sync-release-2.5dev.patch |   30 ++++++++++++++++++++++++++++++
++ 1 file changed, 30 insertions(+)
++ create mode 100644 0001-weekly-on-sync-release-2.5dev.patch
++ create mode 100644 fix_empty_poster.patch
++ create mode 100644 pene
++ create mode 100644 polla
++
++diff --git a/0001-weekly-on-sync-release-2.5dev.patch b/0001-weekly-on-sync-release-2.5dev.patch
++new file mode 100644
++index 0000000..7ca9363
++--- /dev/null
+++++ b/0001-weekly-on-sync-release-2.5dev.patch
++@@ -0,0 +1,30 @@
+++From 9da506c2a3c3dc9b3e650ef3f4987581b86f8274 Mon Sep 17 00:00:00 2001
+++From: "Eloy Lafuente (stronk7)" <stronk7@moodle.org>
+++Date: Sun, 30 Dec 2012 01:07:00 +0100
+++Subject: [PATCH] weekly on-sync release 2.5dev
+++
+++---
+++ version.php |    4 ++--
+++ 1 file changed, 2 insertions(+), 2 deletions(-)
+++
+++diff --git a/version.php b/version.php
+++index c819d17..cb5b903 100644
+++--- a/version.php
++++++ b/version.php
+++@@ -30,11 +30,11 @@
+++ defined('MOODLE_INTERNAL') || die();
+++ 
+++ 
+++-$version  = 2012120300.05;              // YYYYMMDD      = weekly release date of this DEV branch
++++$version  = 2012120300.06;              // YYYYMMDD      = weekly release date of this DEV branch
+++                                         //         RR    = release increments - 00 in DEV branches
+++                                         //           .XX = incremental changes
+++ 
+++-$release  = '2.5dev (Build: 20121220)'; // Human-friendly version name
++++$release  = '2.5dev (Build: 20121230)'; // Human-friendly version name
+++ 
+++ $branch   = '25';                       // this version's branch
+++ $maturity = MATURITY_ALPHA;             // this version's maturity level
+++-- 
+++1.7.9.5
+++
++diff --git a/fix_empty_poster.patch b/fix_empty_poster.patch
++new file mode 100644
++index 0000000..e69de29
++diff --git a/pene b/pene
++new file mode 100644
++index 0000000..e69de29
++diff --git a/polla b/polla
++new file mode 100644
++index 0000000..e69de29
++-- 
++1.7.9.5
++
++
++From 099c62752f15492d1d6db79fe2c392dc7a34f11d Mon Sep 17 00:00:00 2001
++From: LuisWu <otashi_css@yahoo.es>
++Date: Thu, 3 Jan 2013 11:54:12 +0100
++Subject: [PATCH 2/4] dsads
++
++---
++ 0 files changed
++ create mode 100644 file1
++
++diff --git a/file1 b/file1
++new file mode 100644
++index 0000000..e69de29
++-- 
++1.7.9.5
++
++
++From 0d63b33b7d2f3233d1d65528e2d00a93037f61c7 Mon Sep 17 00:00:00 2001
++From: LuisWu <otashi_css@yahoo.es>
++Date: Thu, 3 Jan 2013 11:57:03 +0100
++Subject: [PATCH 3/4] sdads
++
++---
++ pene |    1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/pene b/pene
++index e69de29..f000b82 100644
++--- a/pene
+++++ b/pene
++@@ -0,0 +1 @@
+++puta
++-- 
++1.7.9.5
++
++
++From af970e6e5176af069f26ce1c5f90b66557701ac0 Mon Sep 17 00:00:00 2001
++From: LuisWu <otashi_css@yahoo.es>
++Date: Thu, 3 Jan 2013 11:57:58 +0100
++Subject: [PATCH 4/4] asdsada
++
++---
++ polla |    3 +++
++ 1 file changed, 3 insertions(+)
++
++diff --git a/polla b/polla
++index e69de29..607e781 100644
++--- a/polla
+++++ b/polla
++@@ -0,0 +1,3 @@
+++polla gorda
+++flacucha
+++
++-- 
++1.7.9.5
++
+diff --git a/pene~ b/pene~
+new file mode 100644
+index 0000000..e69de29
+diff --git a/polla~ b/polla~
+new file mode 100644
+index 0000000..517923b
+--- /dev/null
++++ b/polla~
+@@ -0,0 +1,2 @@
++polla gorda
++
+diff --git a/rambo b/rambo
+new file mode 100644
+index 0000000..30b31e8
+--- /dev/null
++++ b/rambo
+@@ -0,0 +1 @@
++estalone
 -- 
 1.7.9.5
 
