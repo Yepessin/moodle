@@ -1,0 +1,61 @@
+From 68e1e3bb216973491a2e611f60452a290b54b740 Mon Sep 17 00:00:00 2001
+From: LuisWu <otashi_css@yahoo.es>
+Date: Thu, 3 Jan 2013 11:49:20 +0100
+Subject: [PATCH] commit 1
+
+---
+ 0001-weekly-on-sync-release-2.5dev.patch |   30 ++++++++++++++++++++++++++++++
+ 1 file changed, 30 insertions(+)
+ create mode 100644 0001-weekly-on-sync-release-2.5dev.patch
+ create mode 100644 fix_empty_poster.patch
+ create mode 100644 pene
+ create mode 100644 polla
+
+diff --git a/0001-weekly-on-sync-release-2.5dev.patch b/0001-weekly-on-sync-release-2.5dev.patch
+new file mode 100644
+index 0000000..7ca9363
+--- /dev/null
++++ b/0001-weekly-on-sync-release-2.5dev.patch
+@@ -0,0 +1,30 @@
++From 9da506c2a3c3dc9b3e650ef3f4987581b86f8274 Mon Sep 17 00:00:00 2001
++From: "Eloy Lafuente (stronk7)" <stronk7@moodle.org>
++Date: Sun, 30 Dec 2012 01:07:00 +0100
++Subject: [PATCH] weekly on-sync release 2.5dev
++
++---
++ version.php |    4 ++--
++ 1 file changed, 2 insertions(+), 2 deletions(-)
++
++diff --git a/version.php b/version.php
++index c819d17..cb5b903 100644
++--- a/version.php
+++++ b/version.php
++@@ -30,11 +30,11 @@
++ defined('MOODLE_INTERNAL') || die();
++ 
++ 
++-$version  = 2012120300.05;              // YYYYMMDD      = weekly release date of this DEV branch
+++$version  = 2012120300.06;              // YYYYMMDD      = weekly release date of this DEV branch
++                                         //         RR    = release increments - 00 in DEV branches
++                                         //           .XX = incremental changes
++ 
++-$release  = '2.5dev (Build: 20121220)'; // Human-friendly version name
+++$release  = '2.5dev (Build: 20121230)'; // Human-friendly version name
++ 
++ $branch   = '25';                       // this version's branch
++ $maturity = MATURITY_ALPHA;             // this version's maturity level
++-- 
++1.7.9.5
++
+diff --git a/fix_empty_poster.patch b/fix_empty_poster.patch
+new file mode 100644
+index 0000000..e69de29
+diff --git a/pene b/pene
+new file mode 100644
+index 0000000..e69de29
+diff --git a/polla b/polla
+new file mode 100644
+index 0000000..e69de29
+-- 
+1.7.9.5
+
